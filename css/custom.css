@@ -1,0 +1,5 @@
+.carousel-inner img {
+    max-height: 400px;  /* Adjust as needed */
+    object-fit: cover;  /* Ensure images cover the area without distortion */
+  }
+  

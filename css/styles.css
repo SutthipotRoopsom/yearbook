@@ -1,0 +1,51 @@
+body {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+head {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.carousel-custom {
+    position: relative;
+    width: 100%;
+    max-height: 500px; /* Adjust based on your preferred height */
+    overflow: hidden;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures images cover the carousel without distortion */
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%; /* Adjust size of control buttons */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for icons */
+    border-radius: 50%; /* Rounded icon background */
+  }
+  
+  .carousel-control-prev-icon::before,
+  .carousel-control-next-icon::before {
+    font-size: 2rem; /* Adjust icon size */
+    color: #fff; /* White color for the icon */
+  }
+  
+  .carousel-indicators button {
+    background-color: #000; /* Black color for the indicators */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #fff; /* White color for the active indicator */
+  }
+  
